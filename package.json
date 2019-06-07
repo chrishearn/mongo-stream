@@ -26,6 +26,7 @@
     "express": "4.17.1",
     "mongodb": "3.2.7",
     "service-logger": "1.0.3",
+    "json-patch": "0.7.0",
     "winston": "^3.2.1",
     "winston-log2gelf": "^2.0.4"
   }

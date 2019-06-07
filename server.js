@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // for parsing application/json
-const logger = new (require('service-logger'))(__filename);
+const logger = require('./lib/logging').logger;
 const MongoStream = require('./lib/mongo-stream');
 const CollectionManager = require('./lib/CollectionManager');
 let mongoStream;
